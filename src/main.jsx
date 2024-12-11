@@ -3,11 +3,11 @@ import './index.css'
 import App from './App.jsx'
 import {Provider} from 'react-redux'
 import { Toaster } from 'react-hot-toast'
-import Store from './store.js'
+import Store from './reduxStore.js'
 
 createRoot(document.getElementById('root')).render(
     <Provider store={Store}>
-    <App />
-    <Toaster />
+        <App />
+        <Toaster />
     </Provider>
 )
