@@ -1,0 +1,22 @@
+1:  install the npm packages of react-router-dom , @reduxjs/toolkit and react-redux
+2:  setup the redux by creating store and then wrap it to app then create slice
+3:  during creation of slice, the initial value of slice be the value store in localstorage and if nothing is there then a empty array assigned to the initial value property
+4:  add the action to the redcuer function in slice (notesSlice) and here you create you slice for the notes application
+5:  link this created slice reducer to your store.js file
+6:  now we use the react router to route the things and we define the route in app.jsx for "/","/notes" and "/notes/:id"
+7:  after definig route we make a folder of components and their we make .jsx file for our project
+8:  define the element to the routes and then use the routerProvider component to use the routes
+9:  now setup the navbar component by defining the home and notes two elements to navigate to Home page and Notes page
+10: setup the home page where there is a title input and a content input also a create button this button can change its name when you update notes then you come the same home page but the button with update notes name so we use the paramerter id to toggle that
+11: use in home page the useSearchParams hook for the query paramerter to get the details or can update also the queru parameter
+12: now make a function to deal with the create note button so that when it gets clicked then it send data to the slice so that slice can make operation on it's
+13: install a react hot toast package to use a toast in app when something gets success then it toast come on screen like when data submitted then a toast come and tell submitte
+14: slice reducer function logic created for all actions
+15: now we go for the notes component which is for the list of notes
+16: put the notes content in note variable in the note.jsx
+17:
+18:
+19:
+20:
+21:
+22;

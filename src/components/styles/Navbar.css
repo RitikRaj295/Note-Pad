@@ -1,0 +1,35 @@
+nav{
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    text-decoration: none;
+    padding: 2px;
+    background-color: rgb(131, 110, 202);
+    font-size: 1.2rem;
+    font-weight: bold;
+
+
+
+}
+    
+
+.active-class{
+    text-decoration: none;
+     color:rgb(255, 255, 255);
+     &:hover{
+        border-bottom: 1px solid;
+     }
+        
+}
+
+.deactive-class{
+    text-decoration: none;
+    color:black;
+    &:hover{
+        border-bottom: 1px solid;
+     }
+}
